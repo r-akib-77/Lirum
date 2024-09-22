@@ -8,22 +8,22 @@ const Menu = [
   {
     id: 1,
     name: "Home",
-    link: "/#",
+    link: "/",
   },
   {
     id: 2,
     name: "Top Rated",
-    link: "/#services",
+    link: "#/",
   },
   {
     id: 3,
     name: "Kids Wear",
-    link: "/#",
+    link: "/",
   },
   {
     id: 4,
     name: "Mens Wear",
-    link: "/#",
+    link: "/",
   },
 ];
 
@@ -53,7 +53,7 @@ const Navbar = () => {
         <div className="container flex justify-between items-center">
           <div>
             <a
-              href="#"
+              href="/"
               className="font-bold text-secondery dark:text-white text-2xl sm:text-3xl flex gap-2"
             >
               <img src={logo} alt="" className="w-10 " />

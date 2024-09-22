@@ -1,6 +1,6 @@
 {
+  "homepage": "https://r-akib-77.github.io/Lirum",
   "name": "mordern-ui-ux",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "gh-pages": "^6.1.1",
     "ract": "^0.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

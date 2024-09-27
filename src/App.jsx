@@ -20,7 +20,7 @@ const App = () => {
     AOS.refresh();
   }, []);
   return (
-    <div>
+    <div className="max-w-screen">
       <Navbar />
       <Hero />
       <Products />
